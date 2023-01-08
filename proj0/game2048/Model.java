@@ -138,6 +138,16 @@ public class Model extends Observable {
      * */
     public static boolean emptySpaceExists(Board b) {
         // TODO: Fill in this function.
+        for(int i=0;i<b.size();i++)
+        {
+            for(int j=0;j<b.size();j++)
+            {
+                if(b.tile(j,i)==null)
+                {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
@@ -148,6 +158,16 @@ public class Model extends Observable {
      */
     public static boolean maxTileExists(Board b) {
         // TODO: Fill in this function.
+        for(int i=0;i<b.size();i++)
+        {
+            for(int j=0;j<b.size();j++)
+            {
+                if(b.tile(j,i)!=null&&b.tile(j,i).value()==MAX_PIECE)
+                {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
@@ -159,6 +179,42 @@ public class Model extends Observable {
      */
     public static boolean atLeastOneMoveExists(Board b) {
         // TODO: Fill in this function.
+        boolean tag=false;
+        for(int i=0;i< b.size();i++)
+        {
+            for(int j=0;j<b.size();j++)
+            {
+                if(b.tile(i,j)!=null)
+                {
+                    if(j+1<b.size()&&b.tile(i,j+1)!=null&&b.tile(i,j).value()==b.tile(i,j+1).value())
+                    {
+                        tag=true;
+                        break;
+                    }
+                    if(i+1<b.size()&&b.tile(i+1,j)!=null&&b.tile(i,j).value()==b.tile(i+1,j).value())
+                    {
+                        tag=true;
+                        break;
+                    }
+                    if(j-1>=0&&b.tile(i,j-1)!=null&&b.tile(i,j).value()==b.tile(i,j-1).value())
+                    {
+                        tag=true;
+                        break;
+                    }
+                    if(i-1>=0&&b.tile(i-1,j)!=null&&b.tile(i,j).value()==b.tile(i-1,j).value())
+                    {
+                        tag=true;
+                        break;
+                    }
+                }
+
+            }
+            if(emptySpaceExists(b)||tag)
+            {
+                return true;
+            }
+        }
+
         return false;
     }
 
