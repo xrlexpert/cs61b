@@ -109,11 +109,298 @@ public class Model extends Observable {
     public boolean tilt(Side side) {
         boolean changed;
         changed = false;
+        board.setViewingPerspective(side);//only need to chang the row
+        boolean tag=false;//if tile is null
+        for(int col=0;col<board.size();col++)
+        {
+            Tile forth=board.tile(col,3);
+            Tile third=board.tile(col,2);
+            Tile twice=board.tile(col,1);
+            Tile first=board.tile(col,0);
+            if(forth==null)
+            {
+                if(third!=null)
+                {
+                    board.move(col,3,third);
+                    tag=true;
+                    if(twice!=null) //forth==null third!=null twice!=null
+                    {
+                        if(twice.value()==third.value())
+                        {
+                            Tile merge_1=twice.merge(col,3,third);
+                            board.move(col,3,twice);
+                            score+=board.tile(col,3).value();
+                            tag=true;
+                            if(first!=null)
+                            {
+                                //first=first.move(col,2);
+                                board.move(col,2,first);
+                                tag=true;
+                            }
+
+                        }
+                        else if(twice.value()!=third.value())
+                        {
+                           // twice=twice.move(col,2);
+                            board.move(col,2,twice);
+                            tag=true;
+                            if(first!=null)
+                            {
+                                if(first.value()!=twice.value())
+                                {
+                                    //first=first.move(col,1);
+                                    board.move(col,1,first);
+                                    tag=true;
+                                }
+                                else
+                                {
+//                                    first=first.move(col,2);
+//                                    Tile merge_4=first.merge(col,2,twice);
+                                    board.move(col,2,first);
+                                    score+=board.tile(col,2).value();
+                                    tag=true;
+                                }
+                            }
+
+                        }
+                    }
+                    else // forth==null,third!=null,twice ==null
+                    {
+                        if(first!=null&&first.value()==third.value())
+                        {
+//                            first=first.move(col,3);
+//                            Tile merge_2=first.merge(col,3,third);
+                            board.move(col,3,first);
+                            score+=board.tile(col,3).value();
+                            tag=true;
+                        }
+                        if(first!=null&&first.value()!=third.value())
+                        {
+//                            first=first.move(col,2);
+                            board.move(col,2,first);
+                            tag=true;
+                        }
+
+                    }
+                }
+                /*forth==null third==null twice==null*/
+                else {
+                        if(twice==null)
+                        {
+                            if(first!=null)
+                            {
+                                board.move(col,3,first);
+                                // first=first.move(col,3);
+                                tag=true;
+                            }
+
+                        }//forth ==null,third==null twice!=null;
+                        else{
+                          //  twice=twice.move(col,3);
+                            board.move(col,3,twice);
+                            tag=true;
+                            if(first!=null)
+                            {
+                                if(first.value()==twice.value())
+                                {
+//                                    first=first.move(col,3);
+//                                    Tile merge_3=first.merge(col,3,twice);
+                                    board.move(col,3,first);
+                                    score+=board.tile(col,3).value();
+                                    tag=true;
+                                }
+                                else
+                                {
+                                   // first=first.move(col,2);
+                                    board.move(col,2,first);
+                                    tag=true;
+                                }
+
+                            }
+                        }
+
+                    }
+
+
+            }
+            //forth !=null
+            else {
+                if(third!=null)
+                {
+                    if(third.value()==forth.value())
+                    {
+//                       third=third.move(col,3);
+//                        Tile merge_5=third.merge(col,3,forth);
+                        board.move(col,3,third);
+                        score+=board.tile(col,3).value();
+                        tag=true;
+                        if(twice!=null)
+                        {
+//                            twice=twice.move(col,2);
+                            board.move(col,2,twice);
+                            tag=true;
+                            if(first!=null)
+                            {
+                                if(first.value()==twice.value())
+                                {
+//                                   first.move(col,2);
+//                                   Tile merge_6=first.merge(col,2,twice);
+                                    board.move(col,2,first);
+                                    score+=board.tile(col,2).value();
+                                    tag=true;
+                                }
+                                else
+                                {
+                                   // first.move(col,1);
+                                    board.move(col,1,first);
+                                    tag=true;
+                                }
+                            }
+                        }
+                        else if(twice==null)
+                        {
+                            if(first!=null)
+                            {
+                                //first.move(col,2);
+                                board.move(col,2,first);
+                                tag=true;
+                            }
+
+                        }
+                    }else if(third.value()!=forth.value())
+                    {
+                        if(twice!=null)
+                        {
+                            if(twice.value()==third.value())
+                            {
+//                                twice.move(col,2);
+//                                Tile merge_7=twice.merge(col,2,third);
+                                board.move(col,2,twice);
+                                score+=board.tile(col,2).value();
+                                tag=true;
+                                if(first!=null)
+                                {
+                                    //first.move(col,1);
+                                    board.move(col,1,first);
+                                    tag=true;
+                                }
+                            }
+                            else if(twice.value()!=third.value())
+                            {
+                                if(first!=null&&first.value()==twice.value())
+                                {
+//                                    first.move(col,1);
+//                                    Tile merge_9=first.merge(col,1,twice);
+                                    board.move(col,1,first);
+                                    score+=board.tile(col,1).value();
+                                    tag=true;
+                                }
+                            }
+
+
+                        }//forth is 3 third is 2 twice==null
+                        else if(twice==null)
+                        {
+                            if(first!=null)
+                            {
+                                if(first.value()!=third.value())
+                                {
+                                    //first.move(col,1);
+                                    board.move(col,1,first);
+                                    tag=true;
+                                }
+                                else
+                                {
+//                                    first.move(col,2);
+//                                    Tile merge_8=first.merge(col,2,third);
+                                    board.move(col,2,first);
+                                    score+=board.tile(col,2).value();
+                                    tag=true;
+                                }
+
+                            }
+
+                        }
+
+                    }
+                }
+                else if(third==null)//forth is 3 third ==null
+                {
+                    if(twice!=null)
+                    {
+                        if(twice.value()==forth.value())
+                        {
+//                            twice.move(col,3);
+//                            Tile merge_10=twice.merge(col,3,forth);
+                            board.move(col,3,twice);
+                            score+=board.tile(col,3).value();
+                            tag=true;
+                            if(first!=null)
+                            {
+                                board.move(col,2,first);//first.move(col,2)
+                            }
+                        }
+                        else if(twice.value()!=forth.value())//forth is 3 twice is 2
+                        {
+                            //twice.move(col,2);
+                            board.move(col,2,twice);
+                            tag=true;
+                            if(first!=null)
+                            {
+                                if(first.value()==twice.value())
+                                {
+//                                    first.move(col,2);
+//                                    Tile merge_11=first.merge(col,2,twice);
+                                    board.move(col,2,first);
+                                    score+=board.tile(col,2).value();
+                                    tag=true;
+                                }
+                                else
+                                {
+//                                    first.move(col,1);
+                                    board.move(col,1,first);
+                                    tag=true;
+                                }
+                            }
+                        }
+
+                    }//forth is 3 third==null twice==null
+                    else if(twice==null)
+                    {
+                        if(first!=null)
+                        {
+                            if(first.value()==forth.value())
+                            {
+//                                first.move(col,3);
+//                                Tile merge_12=first.merge(col,3,forth);
+                                board.move(col,3,first);
+                                score+=board.tile(col,3).value();
+                                tag=true;
+                            }
+                            else
+                            {
+//                                first.move(col,2);
+                                board.move(col,2,first);
+                                tag=true;
+                            }
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+        }
+        if(tag) changed=true;
+
 
         // TODO: Modify this.board (and perhaps this.score) to account
-        // for the tilt to the Side SIDE. If the board changed, set the
-        // changed local variable to true.
+        /*for the tilt to the Side SIDE. If the board changed,
+         set the changed local variable to true.*/
 
+        board.setViewingPerspective(Side.NORTH);
         checkGameOver();
         if (changed) {
             setChanged();
