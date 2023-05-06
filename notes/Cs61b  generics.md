@@ -3,10 +3,10 @@
 泛型
 
 ## define语法：
-**public class\interface name <T>{}**
-Then anywhere you want to use the arbitrary type, you use that placeholder instead.
-
+**public class\interface name <T>{  }**<br>
+Then anywhere you want to use the arbitrary type, you use that placeholder instead.<br>
 for example:
+
 ```java
 public class DLList<Ta> {
     private IntNode sentinel;

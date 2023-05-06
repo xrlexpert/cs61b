@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4da67ba-fc9f-4944-9c62-6495b4b90333" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../hw0b/src/ListExercises.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw0b/src/MapExercises.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw0b/tests/ListExercisesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw0b/tests/MapExercisesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/greeting57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/heart25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input1-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input10-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input2-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input8-dups.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input8-no.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/input8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/jerry47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/michael61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/sedgewick60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/snake1001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/snake101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/snake13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/snake501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/wayne98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/inputFiles/wayne98b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/greeting57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/heart25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input1-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input10-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input2-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input8-dups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input8-no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/input8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/jerry47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/sedgewick60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/snake101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/snake13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/outputFiles/wayne98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/src/InteractivePercolationVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/src/Percolation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/src/PercolationFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/src/PercolationStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2/src/PercolationVisualizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/magic_word.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/src/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab01/tests/ArithmeticTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/.idea/libraries/library_sp23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/lab02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/AdventureGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/AdventureStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/AdventureUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/BeeCountingStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/FillerStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/MachineStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/PalindromeStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/adventure/SpeciesListStage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/bomb/Bomb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/bomb/BombMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/production/lab02/common/IntList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/adventure/AdventureGameTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/bomb/BombTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/data/correctAnswers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/data/correctInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/data/incorrectAnswers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/data/incorrectInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/helpers/CaptureSystemOutput$Extension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/helpers/CaptureSystemOutput$OutputCapture$CaptureOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/helpers/CaptureSystemOutput$OutputCapture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/out/test/lab02/helpers/CaptureSystemOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/AdventureGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/AdventureStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/AdventureUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/BeeCountingStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/FillerStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/MachineStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/PalindromeStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/adventure/SpeciesListStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/bomb/Bomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/bomb/BombMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/src/common/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/adventure/AdventureGameTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/bomb/BombTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/data/correctAnswers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/data/correctInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/data/incorrectAnswers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/data/incorrectInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab02/tests/helpers/CaptureSystemOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/.idea/libraries/library_sp23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/lab03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/AdventureGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/AdventureStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/AdventureUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/BeeCountingStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/FillerStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/MachineStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/PalindromeStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/adventure/SpeciesListStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/common/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/timing/AList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/timing/Experiments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/timing/SLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/src/timing/TimingData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/adventure/AdventureGameTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/AdventureGame/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/AdventureGame/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/BeeCountingStage/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/BeeCountingStage/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/MachineStage/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/MachineStage/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/PalindromeStage/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/PalindromeStage/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/SpeciesListStage/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/SpeciesListStage/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/game/answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/data/game/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/helpers/CaptureSystemOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/timing/Helpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03/tests/timing/TimingExperimentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/src/conflict/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/src/puzzle/Puzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/src/puzzle/answer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/src/puzzle/secret.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/tests/conflict/ConflictTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/tests/puzzle/PuzzleReference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05/tests/puzzle/PuzzleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab06/magic_word.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab06/self_reflection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/src/Map61B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/src/ULLMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/src/speedTestResults.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/tests/InsertInOrderSpeedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/tests/InsertRandomSpeedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/tests/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/tests/TestBSTMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab07/tests/TestBSTMapExtra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/src/hashmap/Map61B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/src/hashmap/MyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/src/hashmap/MyHashMapFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/src/hashmap/ULLMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/src/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/hashmap/TestMyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/hashmap/TestMyHashMapBuckets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/hashmap/TestMyHashMapExtra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/speed/BucketsSpeedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/speed/InsertInOrderSpeedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/speed/InsertRandomSpeedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab08/tests/speed/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/knightworld/BoringWorldDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/knightworld/KnightWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/knightworld/RandomWorldDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/magic_word.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/project3prep.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/tileengine/TERenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/tileengine/TETile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab12/src/tileengine/Tileset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/src/MemoryGame/MemoryGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/src/byowTools/RandomUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/src/byowTools/TileEngine/TERenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/src/byowTools/TileEngine/TETile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/src/byowTools/TileEngine/Tileset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/Cs61b  generics.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/Cs61b  generics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes/Cs61b Subtype Polymorphism.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/Cs61b Subtype Polymorphism.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/data/example-ea.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/data/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/data/sorted_scrabble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/AoAGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/choosers/Chooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/choosers/EvilChooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/choosers/RandomChooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/guessers/ConsoleGuesser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/guessers/Guesser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/guessers/NaiveLetterFreqGuesser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/guessers/PAGALetterFreqGuesser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/guessers/PatternAwareLetterFreqGuesser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/src/aoa/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/choosers/ChooserHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/choosers/EvilChooserIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/choosers/EvilChooserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/choosers/RandomChooserIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/choosers/RandomChooserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/guessers/NaiveLetterFreqGuesserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/guessers/PAGALetterFreqGuesserIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/guessers/PAGALetterFreqGuesserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/guessers/PatternAwareLetterFreqGuesserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/aoa/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace0-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace1-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace10-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace11-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace12-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace13-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace14-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace2-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace3-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace4-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace5-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace6-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace7-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace8-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/evilTraces/trace9-evil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/data/randomTraces/trace9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/helpers/CaptureSystemOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/helpers/FileSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj0/tests/helpers/FileSourceProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1a/src/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1a/tests/LinkedListDequeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1a/tests/NodeChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1b/src/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1b/tests/ArrayDequeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/deque/ArrayDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/deque/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/deque/LinkedListDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/gh2/GuitarHeroLite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/gh2/GuitarPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/gh2/GuitarString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/src/gh2/TTFAF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/tests/MaxArrayDequeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj1c/tests/TestGuitarString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/browser/NgordnetQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/browser/NgordnetQueryHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/browser/NgordnetServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/main/DummyHistoryHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/main/DummyHistoryTextHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/main/FileReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/main/PlotDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/main/example_input_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/ngrams/NGramMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/ngrams/NGramMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/ngrams/TimeSeries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/ngrams/TimeSeriesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/ngordnet/plotting/Plotter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/blank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/ngordnet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/ngordnet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/ngordnet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/ngordnet_2a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/staff_ngordnet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj2a/static/staff_ngordnet_2a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/Core/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/Core/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/Core/RandomUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/InputDemo/DemoInputSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/InputDemo/InputSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/InputDemo/KeyboardInputSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/InputDemo/RandomInputSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/InputDemo/StringInputDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/TileEngine/TERenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/TileEngine/TETile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj3/byow/TileEngine/Tileset.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2PNX1dMKw2odwcgColoxphqR5Uo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/SelfLearn/cs61b/lab/lab03",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4862069",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4da67ba-fc9f-4944-9c62-6495b4b90333" name="Changes" comment="" />
+      <created>1683298298906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683298298906</updated>
+    </task>
+    <servers />
+  </component>
+</project>
