@@ -13,6 +13,8 @@ for(int i:Set)
 怎么样才能使我们定义的class都能如此优美地遍历呢？
 ### Essence
 
+本质是需要class有iterator()这个方法来获取该class的迭代器class，并且这个迭代器class需要有	`hasNext()`和`next()`两个方法来判断当前位置的下一个有没有元素，如果有则输出，并自动更新为下一个位置
+
 ```java
 Iterator<String> asser = a.iterator();
 while(asser.hasNext())
@@ -21,8 +23,6 @@ while(asser.hasNext())
        System.out.println(s);
 }
 ```
-
-本质是需要class有iterator()这个方法来获取该class的迭代器class，并且这个迭代器class需要有	`hasNext()`和`next()`两个方法来判断当前位置的下一个有没有元素，如果有则输出，并自动更新为下一个位置
 
 ### HOW
 

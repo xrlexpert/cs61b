@@ -73,6 +73,22 @@ public class Arryset <T>implements Iterable<T>{
         x.append(']');
         return x.toString();
     }
+    @Override
+    public boolean equals(Object o)
+    {
+        if(o instanceof Arryset x)
+        {
+            if(this.size!=x.size)
+                return false;
+            for(T i: this)
+            {
+                if(!x.contains(i))
+                    return false;
+            }
+        }
+        return true;
+    }
+
 
 
     public static void main(String[] args) {
