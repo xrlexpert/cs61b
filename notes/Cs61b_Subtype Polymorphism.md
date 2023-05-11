@@ -30,7 +30,9 @@ def print_larger(x, y):
 
 对于不同类型的class，我们需要有不同能比较不同类型的compare函数。<br>
 然而对于同一种类型的物体，我们可能按照不同的规则来比较。
-所以有了接下来的Compartors
+所以有了接下来的Compartors：定义物体比较的行为（传入Max函数，这样我们只需要写一个max函数就可以了）
+
+* 首先定义一个**generics**的最基本Comparator来定义两个物体的比较行为。
 
 ```java
 public interface Comparator<T> {
@@ -38,4 +40,34 @@ public interface Comparator<T> {
 }
 ```
 
-首先定义一个**generics**的最基本Comparator来定义两个物体的比较行为。
+
+
+* 然后需要对不同比较方式建立不同的comparator子类如`NameComparator`是按照名字来比较
+* 再用一个静态方法获取比较器
+
+```java
+import java.util.Comparator;
+
+public class Dog implements Comparable<Dog> {
+    ...
+
+    private static class NameComparator implements Comparator<Dog> {
+        public int compare(Dog a, Dog b) {
+            return a.name.length>b.name.length;
+        }
+    }
+    private static class SizeComparator implements Comparator<Dog> {
+        public int compare(Dog a, Dog b) {
+            return a.size>b.size;
+        }
+    }
+    
+    public static Comparator<Dog> getNameComparator() {
+        return new NameComparator();
+    }
+     public static Comparator<Dog> getSizeComparator() {
+        return new SizeComparator();
+    }
+}
+```
+
